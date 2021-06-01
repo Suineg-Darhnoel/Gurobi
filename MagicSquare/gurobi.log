@@ -1,0 +1,71 @@
+
+Gurobi 9.1.2 (linux64, Python) logging started Mon May 31 18:40:56 2021
+
+Academic license - for non-commercial use only - expires 2021-07-28
+Using license file /home/linak/gurobi.lic
+Set parameter LogFile to value gurobi.log
+
+Gurobi 9.1.2 (linux64, gurobi_cl) logging started Tue Jun  1 00:25:18 2021
+
+Academic license - for non-commercial use only - expires 2021-07-28
+Using license file /home/linak/gurobi.lic
+Set parameter LogFile to value gurobi.log
+
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Copyright (c) 2021, Gurobi Optimization, LLC
+
+Read LP format model from file magic_square.lp
+Reading time = 0.01 seconds
+: 18 rows, 82 columns, 386 nonzeros
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 18 rows, 82 columns and 386 nonzeros
+Model fingerprint: 0xe7d4699c
+Variable types: 0 continuous, 82 integer (81 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 9e+00]
+Presolve removed 2 rows and 9 columns
+Presolve time: 0.01s
+Presolved: 16 rows, 73 columns, 247 nonzeros
+Variable types: 0 continuous, 73 integer (72 binary)
+Found heuristic solution: objective 1.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 12 (of 12 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+
+Gurobi 9.1.2 (linux64, gurobi_cl) logging started Tue Jun  1 00:25:34 2021
+
+Academic license - for non-commercial use only - expires 2021-07-28
+Using license file /home/linak/gurobi.lic
+Set parameter LogFile to value gurobi.log
+
+Gurobi 9.1.2 (linux64, Python) logging started Tue Jun  1 00:25:53 2021
+
+Academic license - for non-commercial use only - expires 2021-07-28
+Using license file /home/linak/gurobi.lic
+Set parameter LogFile to value gurobi.log
+
+Gurobi 9.1.2 (linux64, Python) logging started Tue Jun  1 00:59:43 2021
+
+Academic license - for non-commercial use only - expires 2021-07-28
+Using license file /home/linak/gurobi.lic
+Set parameter LogFile to value gurobi.log
+
+Gurobi 9.1.2 (linux64, Python) logging started Tue Jun  1 01:02:36 2021
+
+Academic license - for non-commercial use only - expires 2021-07-28
+Using license file /home/linak/gurobi.lic
+Set parameter LogFile to value gurobi.log
+
+Gurobi 9.1.2 (linux64, Python) logging started Tue Jun  1 01:09:35 2021
+
+Academic license - for non-commercial use only - expires 2021-07-28
+Using license file /home/linak/gurobi.lic
+Set parameter LogFile to value gurobi.log
