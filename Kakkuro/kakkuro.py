@@ -23,6 +23,16 @@ def coord2range(hints, coord):
         return hints[coord][1]
     except KeyError:
         return 0
+# user friendly ouput of the solutions
+def output_sol(model):
+    import re
+    for v in kmodel.getVars():
+        value = v.getAttr(GRB.Attr.X)
+        name  = v.getAttr(GRB.Attr.VarName)
+        row, col, ans = re.findall('[0-9]+', name)
+        if value == 1:
+            print("({}, {}) = {}".format(row, col, int(ans)+1))
+
 
 # function test
 def test():
@@ -164,15 +174,7 @@ kmodel.setObjective(0)
 kmodel.optimize()
 
 # Print Solutions
-import re
-# print(kmodel.printAttr('x'))
-
-for v in kmodel.getVars():
-    value = v.getAttr(GRB.Attr.X)
-    name  = v.getAttr(GRB.Attr.VarName)
-    row, col, ans = re.findall('[0-9]+', name)
-    if value == 1:
-        print("({}, {}) = {}".format(row, col, int(ans)+1))
+output_sol(kmodel)
 
 # Write a solution to a file
 try:
